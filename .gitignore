@@ -1,0 +1,41 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+venv/
+env/
+.venv/
+.idea/
+.vscode/
+
+# === macOS ===
+.DS_Store
+
+# === Jupyter / Data ===
+.ipynb_checkpoints/
+*.ipynb
+*.csv
+*.xlsx
+*.h5
+*.log
+
+# === Build / Packaging ===
+build/
+dist/
+*.egg-info/
+
+# === Tests ===
+.pytest_cache/
+coverage/
+
+# === Cache & temporary ===
+*.tmp
+*.bak
+*.swp
+*.log
+*.out
+
+# === System files ===
+Thumbs.db
